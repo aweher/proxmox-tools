@@ -17,7 +17,7 @@ mapping_file="/tmp/mapping.txt"
 echo > $mapping_file
 
 # Regexp to exclude virtual ifaces
-exclude_regex='^(lo|virbr|vnet|vmnet|tap|vlan|vmbr|vxlan|bonding_masters)'
+exclude_regex='^(lo|virbr|vnet|vmnet|tap|vlan|vmbr|vxlan|wt|bonding_masters)'
 
 # tmp arrays
 declare -A interface_info
